@@ -1,30 +1,16 @@
-// import React from 'react';
 
-// export default function Project() {
-//   return (
-//     <div>
-//       <h1>Projects Page</h1>
-//       <li>
-//         Magical Crouton 
-//       </li>
-//       <li>
-//         Magical Breadsticks
-//       </li>
-//     </div>
-//   );
-// }
 
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
-
+import backgroundImage from '../../styles/Images/clouds-gc3410e0d3_640.jpg';
 export default function Project() {
   return (
-    <div>
+    <div className="home-container" style={{ backgroundImage: `url(${backgroundImage})`, height: '100vh' }}>
       <h1>Projects Page</h1>
       <div className="row">
         <div className="col-md-6">
           <Card>
-            <Card.Img variant="top" src="https://via.placeholder.com/150" />
+            <Card.Img variant="top" src="https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
             <Card.Body>
               <Card.Title>Magical Crouton</Card.Title>
               <Card.Text>
@@ -38,7 +24,7 @@ export default function Project() {
         </div>
         <div className="col-md-6">
           <Card>
-            <Card.Img variant="top" src="https://via.placeholder.com/150" />
+            <Card.Img variant="top" src="https://images.unsplash.com/photo-1671951483649-d68187142e42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
             <Card.Body>
               <Card.Title>Magical Breadsticks</Card.Title>
               <Card.Text>
