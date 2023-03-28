@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/about-me-by-React/static/css/main.ec418fd5.css",
+    "main.js": "/about-me-by-React/static/js/main.2858174b.js",
+    "static/media/clouds-gc3410e0d3_640.jpg": "/about-me-by-React/static/media/clouds-gc3410e0d3_640.3cf90426eec82d249867.jpg",
+    "index.html": "/about-me-by-React/index.html",
+    "main.ec418fd5.css.map": "/about-me-by-React/static/css/main.ec418fd5.css.map",
+    "main.2858174b.js.map": "/about-me-by-React/static/js/main.2858174b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec418fd5.css",
+    "static/js/main.2858174b.js"
+  ]
+}
