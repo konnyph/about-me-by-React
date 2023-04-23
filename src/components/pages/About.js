@@ -15,7 +15,7 @@ export default function About() {
          
           <h6 className="text-center">
           
-          I'm a passionate learner with a growing interest in the world of coding. While it may be a new subject to me, I find myself enjoying it more and more every day. As someone who loves to challenge themselves, I see coding as both a fun and stressful experience, constantly pushing me to learn and grow. I'm excited to take on new challenges and expand my knowledge of coding through this bootcamp, and I look forward to all the possibilities that lie ahead.
+          Full-stack web developer with a background in Chemistry. Graduated from Georgia Tech University coding boot camp and earned a certificate in full-stack web development. Innovative problem-solver passionate about developing projects; focused on front-end and back-end. Strengths in creativity, teamwork, quick learning, fast-paced and building projects from ideation to execution.	
           </h6>
           <div className="d-flex justify-content-center mt-4">
             {/* <Button variant="primary" href="#">Learn More</Button> */}

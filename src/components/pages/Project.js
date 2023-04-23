@@ -8,6 +8,20 @@ export default function Project() {
     <div className="home-container" style={{ backgroundImage: `url(${backgroundImage})`, height: '100vh' }}>
       <h1>Projects Page</h1>
       <div className="row">
+      <div className="col-md-6">
+          <Card>
+            <Card.Img variant="top" src="https://images.unsplash.com/photo-1671951483649-d68187142e42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+            <Card.Body>
+              <Card.Title>Programmer Tool Kit</Card.Title>
+              <Card.Text>
+              The app was created to help developers, engineers, and the curious create, fix, and update their code using ChatGPT.
+              </Card.Text>
+              <a href="https://programmerstoolkit.herokuapp.com/">
+                <Button variant="primary">Learn More</Button>
+              </a>
+            </Card.Body>
+          </Card>
+        </div>
         <div className="col-md-6">
           <Card>
             <Card.Img variant="top" src="https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
@@ -36,6 +50,7 @@ export default function Project() {
             </Card.Body>
           </Card>
         </div>
+        
       </div>
     </div>
   );

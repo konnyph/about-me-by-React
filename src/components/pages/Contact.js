@@ -40,9 +40,20 @@ export default function Contact() {
             <Card.Body>
               <Card.Title>Resume</Card.Title>
               <Card.Text>
-                Coming soon. Using Github link for now.
+                Link to Resume
               </Card.Text>
-              <a href="https://github.com/konnyph">
+              <a href="https://docs.google.com/document/d/16sgZiSMXyUavgdSBAFpClP-SvpAtObNOp95tsp-8I04/edit?usp=share_link">
+                <Button variant="primary">Learn More</Button>
+              </a>
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Body>
+              <Card.Title>LinkedIn</Card.Title>
+              <Card.Text>
+                Link to LinkedIn
+              </Card.Text>
+              <a href="https://www.linkedin.com/in/phuongho6773/">
                 <Button variant="primary">Learn More</Button>
               </a>
             </Card.Body>
