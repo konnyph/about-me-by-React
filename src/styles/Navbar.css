@@ -1,0 +1,25 @@
+/* Navbar */
+.nav {
+    background-color: pink; /* Set the background color */
+    padding: 1rem; /* Add padding to the navbar */
+  }
+  
+  .nav-item {
+    font-weight: bold; 
+   /* Set the font weight */
+  }
+  
+  .navbar-nav {
+    margin-left: auto; /* Push the navbar links to the right */
+  }
+  
+  .nav-link {
+    color: #333; /* Set the link color */
+    font-weight: 500; /* Set the font weight */
+    margin-left: 1rem; /* Add some space between the links */
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Change the link color on hover */
+  }
+  
